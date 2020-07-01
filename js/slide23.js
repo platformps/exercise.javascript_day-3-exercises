@@ -4,7 +4,7 @@ function smaller (numbersToCompare) {
     do {
         integers = prompt("Enter two integers separated by a space");
       //  integers.split(" ");
-      integers.split(regex)
+      integers.split(regex);
         if (integers[0] > integers[1]) {
             console.log("The smaller number is " + integers[1]);
         } else if (integers[1] > integers[0]) {
