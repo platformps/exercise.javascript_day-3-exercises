@@ -1,7 +1,11 @@
-# Project Title
+# JavaScript Day 3 Slide Exercises
 
-* **Objective** - To create a product...
-* **Purpose** - To gain familiarity the following features...
+* **Purpose** - To gain familiarity the following features:
+  * Functions
+  * Callback Functions
+  * Return statements
+
+* **Description** - Complete each of the exercises in the [slides](https://docs.google.com/presentation/d/e/2PACX-1vRVH-x-FwqMcLmXDNxJgDB-QFLWs5Ylcb5EL6HDhCD-do2aLvbToywMAvAQtz2CxA/pub?start=false&loop=false&delayms=3000#slide=id.p22) beginning on slide 22 and ending on slide 25. Place each exercise definiton in the respective `./js/slide.js` file.
 
 
 
