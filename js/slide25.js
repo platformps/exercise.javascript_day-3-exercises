@@ -68,6 +68,7 @@ function monthDaysCommon(monthInt, days) {
   }
 
   return days;
+  //edits by Laura Godinez Testing Push
 }
 
 month();
