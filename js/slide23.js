@@ -7,6 +7,18 @@ while(inputNumberArray.length != 2 || !checkAllNumbers(inputNumberArray)){
     inputNumberArray = input.split(" ");
 }
 
+var numberArray = new Array(inputNumberArray.length);
+var min = Number.MAX_VALUE;
+for(var index = 0; inputNumberArray.length > index; index++){
+    var number = parseFloat(inputNumberArray[index]);
+    numberArray[index] = number;
+    if(min > number){
+        min = number;
+    }
+}
+console.log("Output: " + min);
+
+
 function checkAllNumbers(inputNumberArray){
     for(var index = 0; inputNumberArray.length > index; index++){
         if(!isNumber(inputNumberArray[index])){

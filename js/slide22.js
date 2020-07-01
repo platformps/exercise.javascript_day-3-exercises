@@ -9,7 +9,7 @@ console.log("Output: " + convertToNumber(input));
 
 
 function isNumber(input){
-    return !isNaN(input);
+    return !isNaN(input) && isFinite(input);
 }
 
 function convertToNumber(input){
