@@ -1,42 +1,40 @@
 function smaller (numbersToCompare) {
-    var integers;
-    var regex = "\\s";
+    var integersArray;
     do {
-        integers = prompt("Enter two integers separated by a space");
-      //  integers.split(" ");
-      integers.split(regex);
-        if (integers[0] > integers[1]) {
-            console.log("The smaller number is " + integers[1]);
-        } else if (integers[1] > integers[0]) {
-            console.log("The smaller number is " + integers[0]);
+        var integers = prompt("Enter two integers separated by a space \nHit OK when the form is blank to try with 3 integers");
+        integersArray = integers.split(" ");
+
+        console.log(integersArray[0]); //
+        console.log(integersArray[1]); //
+
+        var lowest = Math.min(integersArray[0], integersArray[1]);
+
+        /*
+        if (integersArray[0] > integersArray[1]) {
+            console.log("The smaller number is " + integersArray[1]);
+        } else if (integersArray[1] > integersArray[0]) {
+            console.log("The smaller number is " + integersArray[0]);
         }
 
-    } while (!(isNaN(integers[0])) && !(isNaN(integers[1])));
+        */
+        console.log("The smaller number is " + lowest);
+    } while (!(isNaN(integersArray[0])) && !(isNaN(integersArray[1])));
     }
 
 function smaller3 (numbersToCompare) {
-    var integers;
-    var regex = "\\s";
-    var firstRound;
-    var secondRound;
+    var integersArray;
     do {
-        integers = prompt("Enter three integers each separated by a space");
-        integers.split(" ");
-        var lowest = Math.min(integers[0], integers[1], integers[2]);
-     /*
-        if (integers[0] > integers[1]) {
-            firstRound = integers[1];
-        } else {
-            firstRound = integers[0];
-        }
-        if (firstRound > integers[2]) {
-            secondRound = firstround;
-        } else {
-            secondRound = integers[2];
-        }
-        */
+        var integers = prompt("Enter three integers each separated by a space");
+        integersArray = integers.split(" ");
+
+        console.log(integersArray[0]); //
+        console.log(integersArray[1]); //
+        console.log(integersArray[2]); //
+
+        var lowest = Math.min(integersArray[0], integersArray[1], integersArray[2]);
+
         console.log("The smaller number is " + lowest);
-    } while (!(isNaN(integers[0])) && !(isNaN(integers[1])));
+    } while (!(isNaN(integersArray[0])) && !(isNaN(integersArray[1])));
 }
 
 smaller();

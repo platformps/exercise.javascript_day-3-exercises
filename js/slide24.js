@@ -1,6 +1,5 @@
 function leap () {
-   // var year;
-  //  var 
+    var year; 
     do {
         year = prompt("Enter a year to find out if it is a leap year");
         if (!(year % 4 == 0)) {
@@ -15,7 +14,6 @@ function leap () {
     
     } while (!(isNaN(year)));
 }
-
 
 
 leap();
