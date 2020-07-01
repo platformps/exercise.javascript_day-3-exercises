@@ -11,6 +11,7 @@ var year = parseInt(input);
 console.log("Output: " + (isLeapYear(year) ? "LEAP YEAR" : "COMMON YEAR"));
 
 
+//https://stackoverflow.com/questions/1779013/check-if-string-contains-only-digits
 function isDigits(input) {
     return /^\d+$/.test(input);
 }
