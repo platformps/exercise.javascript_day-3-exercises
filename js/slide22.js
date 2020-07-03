@@ -1,9 +1,10 @@
-var a= 6;
-var b= 4;
-
-
-if (isNaN(a)) {
-    console.log ("try again");
-} else{
-    console.log  (a * b);
+function isNumber () {
+    var str = prompt("enter a number")
+    if (str = number) {
+        console.log (true); 
+    } else{
+        console.log (false);
+    };
 }
+
+
