@@ -1,0 +1,8 @@
+
+
+function isNumber(){
+}
+
+
+function convertToNumber(){
+}
